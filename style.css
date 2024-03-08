@@ -173,22 +173,6 @@ nav span img {
     margin-right: 0px;
 }
 
-/*#home {
-    display: block;
-}
-#contac {
-    display: block;
-}
-#about {
-    display: block;
-}
-#product {
-    display: block;
-}
-#founders {
-    display: block;
-}*/
-
 #header {
     text-align: start;
     color: rgb(1, 10, 4);
@@ -391,6 +375,31 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    nav b {
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(252, 237, 237);
+    }
+
+    a:hover {
+        color: rgb(13, 36, 243);
+    }
+    .header-overlay::before {
+        position: absolute;
+        background-image: url("./asset/768.jpg");
+        linear-gradient: (rgba(219, 214, 175, 0.2), rgba(219, 214, 175, 0.2));
+        background-blend-mode: overlay;
+        background-size: cover;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        content: "";
+        z-index: -1;
+    }
     header h1 {
         font-weight: 700;
         margin: 15px 0px 0px 0px;
@@ -398,7 +407,15 @@ footer {
         animation-name: slidein;
         font-size: 3.5em;
     }
-
+    #header {
+        text-align: start;
+        color: rgb(228, 240, 232);
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+    }
     header p {
         margin: 15px 0px 0px 0px;
         animation-duration: 6s;
@@ -531,6 +548,20 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    .header-overlay::before {
+        position: absolute;
+        background-image: url("./asset/480.jpg");
+        linear-gradient: (rgba(219, 214, 175, 0.2), rgba(219, 214, 175, 0.2));
+        background-blend-mode: overlay;
+        background-size: cover;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        content: "";
+        z-index: -1;
+    }
     header h1 {
         font-weight: 700;
         margin: 15px 0px 0px 0px;
