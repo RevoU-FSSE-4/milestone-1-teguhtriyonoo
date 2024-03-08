@@ -611,14 +611,14 @@ footer {
 
     .content {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         border: 20px;
 
         justify-content: center;
     }
     .conten-item {
-        width: 45vw;
+        width: 90vw;
         border: 2px solid black;
         border-radius: 10px;
         padding: 0.5vw;
@@ -626,7 +626,7 @@ footer {
     }
     .conten-item img {
         display: flex;
-        width: 45vw;
+        width: 89vw;
         margin-bottom: 1vw;
         align-items: center;
         justify-content: center;
@@ -637,17 +637,17 @@ footer {
     }
 
     #conten-two {
-        grid-template-columns: 2 / span 1;
-        grid-template-rows: 1 / span 1;
+        grid-template-columns: 1 / span 1;
+        grid-template-rows: 2 / span 1;
     }
 
     #conten-three {
         grid-template-columns: 1 / span 1;
-        grid-template-rows: 2 / span 1;
+        grid-template-rows: 3 / span 1;
     }
     #conten-four {
-        grid-template-columns: 2 / span 1;
-        grid-template-rows: 2 / span 1;
+        grid-template-columns: 1 / span 1;
+        grid-template-rows: 4 / span 1;
     }
 
     .founder {
