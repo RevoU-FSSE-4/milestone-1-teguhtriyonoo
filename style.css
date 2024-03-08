@@ -258,6 +258,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3vw;
 }
 
 .container-item {
@@ -293,7 +294,7 @@ article {
     display: flex;
     justify-content: start;
     width: 9vw;
-    border: 1px solid;
+    border: 2px black solid;
     border-radius: 100%;
     margin-right: 0.5vw;
 }
